@@ -1,0 +1,17 @@
+# Terraform local files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+*.tfvars
+*.tfvars.json
+3-tier/3-tier-app-infra/
+3tierproject-app/pro/
+3-tier/3-tier-app-infra/
+3tierproject-app/pro/
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.exe
