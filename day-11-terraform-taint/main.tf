@@ -133,7 +133,7 @@ resource "null_resource" "run_script" {
     }
 
     inline = [
-      "echo 'hello from multi-cloud--devops by -abhipsa priyadarshini sahoo' >> /home/ec2-user/file200"
+      "echo 'hello from multi-cloud--devops ' >> /home/ec2-user/file200"
     ]
   }
 
