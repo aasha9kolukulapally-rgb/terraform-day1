@@ -6,12 +6,7 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket = "your-tfstate-bucket"
-    key    = "day3/terraform.tfstate"
-    region = "us-east-2"
-  }
-}
+  
 
 provider "aws" {
   region = var.region
