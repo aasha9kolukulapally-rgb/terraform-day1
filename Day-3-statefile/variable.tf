@@ -1,14 +1,9 @@
 variable "ami_id" {
-  description = "Passing AMI values"
+  description = "AMI ID"
   type        = string
 }
 
 variable "type" {
-  description = "Passing values to instance type"
-  type        = string
-}
-
-variable "region" {
-  description = "AWS region"
+  description = "Instance type"
   type        = string
 }
