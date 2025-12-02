@@ -1,7 +1,7 @@
 
 resource "aws_instance" "name" { 
-    instance_type = var.type
-     ami = var.ami_id
+    instance_type = "t3.small"
+     ami = "ami-025ca978d4c1d9825"
      tags = {
        Name = "rds-dependency"
      }

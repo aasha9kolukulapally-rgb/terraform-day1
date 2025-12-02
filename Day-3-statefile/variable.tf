@@ -1,11 +1,9 @@
 variable "ami_id" {
-  description = "Passing AMI values"
-  default     = ""
+  description = "AMI ID"
   type        = string
 }
 
 variable "type" {
-  description = "Passing values to instance type"
-  default     = ""
+  description = "Instance type"
   type        = string
 }
